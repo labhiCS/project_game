@@ -6,6 +6,8 @@ from settings import Settings
 
 from ship import Ship
 
+import game_functions as gf
+
 def run_game():
     # Initialize pygame, settings, and screen object
     pygame.init()
@@ -21,6 +23,9 @@ def run_game():
     
     #Start the main loop for the game.
     while True:
+        gf.check_events()
+        gf.update_screen(ai_settings, screen, ship)
+        
         #Watch for keyboard and mouse events.
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
