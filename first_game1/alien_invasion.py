@@ -5,7 +5,7 @@ from pygame.sprite import Group
 from settings import Settings
 from ship import Ship
 from game_stats import GameStats
-from buttom import Buttom
+from button import Button
 #from alien import Alien
 
 import game_functions as gf
