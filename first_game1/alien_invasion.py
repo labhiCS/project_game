@@ -27,9 +27,6 @@ def run_game():
     stats = GameStats(ai_settings)
     sb = Scoreboard(ai_settings, screen, stats)
 
-    # Set the background color.
-    bg_color = (0, 0, 230)
-
     # Make a a ship
     ship = Ship(ai_settings, screen)
 
