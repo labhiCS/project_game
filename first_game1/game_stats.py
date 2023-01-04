@@ -5,8 +5,8 @@ class GameStats():
         self.ai_settings = ai_settings
         self.reset_stats()
 
-        # Start Alien Invasion in an active state. = True
-        # Start game in an inactive state.
+        # Start game in active state. = True.
+        # Start game in an inactive state = False.
         self.game_active = False
 
         # High score should never be reset.
