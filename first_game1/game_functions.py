@@ -76,6 +76,7 @@ def check_play_button(ai_settings, screen, stats, sb, play_button, ship, aliens,
         sb.prep_score()
         sb.prep_high_score()
         sb.prep_level()
+        sb.prep_ships()
 
         # Empty the list of aliens and bullets.
         aliens.empty()
