@@ -239,8 +239,6 @@ def ship_hit(ai_settings, screen, stats, sb, ship, aliens, bullets):
         # Update scoreboard.
         sb.prep_ships()
 
-        # Empty the list of aliens and bullets.
-
 def check_high_score(stats, sb):
     """Check to see if there's a new high score."""
     if stats.score > stats.high_score:
