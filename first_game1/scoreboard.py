@@ -51,7 +51,7 @@ class Scoreboard():
         
         # Display the score at the top right of the screen.
         self.score_rect = self.score_image.get_rect()
-        self.score_rect.right = self.screen_rect.right - 2
+        self.score_rect.right = self.screen_rect.right - 20 #2 willbe there at last of d game
         self.score_rect.top = 20
         
     def prep_high_score(self):
