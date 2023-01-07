@@ -65,6 +65,7 @@ def check_play_button(ai_settings, screen, stats, sb, play_button, ship, aliens,
     if button_clicked and not stats.game_active:
         # Reset the game settings.
         ai_settings.initialize_dynamic_settings()
+        
         # Hide the mouse cursor.
         pygame.mouse.set_visible(False)
     
