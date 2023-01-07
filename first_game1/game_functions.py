@@ -110,6 +110,7 @@ def update_screen(ai_settings, screen, stats, sb, ship, aliens, bullets, play_bu
     pygame.display.flip()
 
 def update_bullets(ai_settings, screen, stats, sb, ship, aliens, bullets):
+    """Update position of bullets and get rid of old bullets."""#305pg
     # Get rid of bullets that have disappeared.
     for bullet in bullets.copy():
         if bullet.rect.bottom <= 0:
