@@ -65,7 +65,7 @@ def check_play_button(ai_settings, screen, stats, sb, play_button, ship, aliens,
     if button_clicked and not stats.game_active:
         # Reset the game settings.
         ai_settings.initialize_dynamic_settings()
-        
+
         # Hide the mouse cursor.
         pygame.mouse.set_visible(False)
     
@@ -230,15 +230,6 @@ def update_aliens(ai_settings, screen, stats, sb, ship, aliens, bullets):
 
     # Look for aliens hitting the bottom of the screen.
     check_aliens_bottom(ai_settings, screen, stats, sb, ship, aliens, bullets)
-
-def ship_hit(ai_settings, screen, stats, sb, ship, aliens, bullets):
-    """Respond to ship being hit by alien."""
-    if stats.ships_left > 0:
-        # Decrement ships_left.
-        stats.ships_left -= 1
-
-        # Update scoreboard.
-        sb.prep_ships()
 
 def check_high_score(stats, sb):
     """Check to see if there's a new high score."""
