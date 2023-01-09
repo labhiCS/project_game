@@ -164,6 +164,7 @@ def create_alien(ai_settings, screen, aliens, alien_number, row_number):
 
 def create_fleet(ai_settings, screen, ship, aliens):
     """Create a full fleet of aliens."""
+    
     # Create an alien and find the number of aliens in a row.
     alien = Alien(ai_settings, screen)
     number_aliens_x = get_number_aliens_x(ai_settings, alien.rect.width)
