@@ -10,6 +10,7 @@ t.speed(0)
 t.penup()
 t.goto(0, 200)
 t.pendown()
+
 while True:
     t.forward(a)
     t.right(b)
