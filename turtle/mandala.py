@@ -1,7 +1,7 @@
 import turtle
 
 t = turtle.Turtle()
-l = ["Purple", "red", "orange", "blue", "green"]
+l = ["purple", "red", "orange", "blue", "yellow"]
 turtle.bgcolor("black")
 
 for i in range(200):
