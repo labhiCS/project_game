@@ -14,3 +14,15 @@ circle(-70, 150)
 left(120)
 circle(160, 55)
 end_fill()
+
+right(110)
+up()
+forward(25)
+down()
+
+#Logo leaf!!
+begin_fill()
+circle(-100, 90)
+right(90)
+circle(-100, 90)
+end_fill()
