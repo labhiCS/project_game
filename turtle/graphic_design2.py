@@ -1,4 +1,5 @@
 from turtle import *
+
 bgcolor("black")
 pencolor("red")
 pensize(3)
