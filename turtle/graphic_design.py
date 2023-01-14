@@ -13,7 +13,7 @@ for i in range(300):
     begin_fill()
 
     for j in range(2):
-        fd(i*1.2):
+        fd(i*1.2)
         rt(60)
         fd(300)
         rt(120)
