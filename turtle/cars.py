@@ -22,8 +22,6 @@ class Car():
         self.odometer_reading += value
         
 car_1 = Car('Audi', 'Q4', 2019)
-
-# 2 directly using instance
 car_1.odometer_reading = 100
 
 # 3 modifying attribute's value using method
