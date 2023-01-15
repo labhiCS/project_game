@@ -1,5 +1,6 @@
 from turtle import *
 from colorsys import *
+
 pensize(4)
 h = 0.4
 for i in range(180, 30, -30):
@@ -15,4 +16,5 @@ for i in range(180, 30, -30):
             lt(60)
         lt(60)
     end_fill()
+    
 done()
