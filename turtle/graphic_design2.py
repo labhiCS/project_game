@@ -1,7 +1,7 @@
 from turtle import *
 
 bgcolor("black")
-pencolor("red")
+pencolor("blue")
 pensize(3)
 speed(0)
 
