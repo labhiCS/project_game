@@ -2,6 +2,7 @@
 # turtle graphic
 
 import turtle
+
 from turtle import *
 
 turtle.title("rainbow spiral")
